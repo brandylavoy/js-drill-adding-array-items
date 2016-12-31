@@ -1,3 +1,8 @@
+/* The .push() method returns the length of the array.
+To return the altered array, you have to push the item first,
+then return the array itself.
+*/
+
 function addToList(list, item) {
     list.push(item);
     return list;
